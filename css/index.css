@@ -132,6 +132,13 @@ table {
   box-sizing: border-box;
 }
 @font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhLq3o.ttf) format('truetype');
+}
+@font-face {
   font-family: 'Yeon Sung';
   font-style: normal;
   font-weight: 400;
@@ -152,7 +159,7 @@ p,
 table,
 td,
 th {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 .topnav {
   padding: 2%;
@@ -161,6 +168,18 @@ th {
   justify-content: flex-end;
 }
 .topnav a {
+  padding: 2%;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.4rem;
+}
+.suit-img img {
+  width: 25%;
+  padding-bottom: 1%;
+}
+.topcont {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
   padding: 2%;
 }
 .SB {

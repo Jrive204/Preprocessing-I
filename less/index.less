@@ -54,8 +54,9 @@ table {
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Yeon+Sung&display=swap');
 
+@rob:'Roboto Mono', monospace;
 @yeo:'Yeon Sung', cursive;
 .pad(){
 	padding: 2%;
@@ -69,7 +70,7 @@ html, body {
 }
 
 h1, h2, a, p, table, td, th {
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 }
 
 .topnav{
@@ -79,9 +80,27 @@ h1, h2, a, p, table, td, th {
 	justify-content: flex-end;
   a{
 	  padding:2%;
+	  font-family: @rob;
+	  font-size: 1.4rem;
   }
 }
+.suit-img img{
+	width: 25%;
+	padding-bottom:1%;
+}
+.topcont{
+	display: flex;
+	flex-direction: column;
+	background-color: gray;
+	.pad();
 
+	.toptitle{
+
+	}
+
+}
 .SB{
 	font-family: @yeo;
 }
+
+
