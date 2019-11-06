@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-color: orange;
+	background-color: whitesmoke;
 }
 ol, ul {
 	list-style: none;
@@ -90,17 +90,53 @@ h1, h2, a, p, table, td, th {
 }
 .topcont{
 	display: flex;
-	flex-direction: column;
-	background-color: gray;
 	.pad();
-
-	.toptitle{
-
-	}
-
-}
-.SB{
+	flex-direction: column;
+	background-color: lightgray;
+	
+	h1{
+		text-decoration: underline blue solid;
+		text-align: center;
+		font-size: 5rem;
+		
+	}// h1 close
+	
+	
+	.SB{
+	text-align: center;
 	font-family: @yeo;
-}
+	font-size: 2rem;
+	padding-top:1.5%;
+	text-transform: capitalize;
+	
+	
+	} // sb close
+	.Top-title{
+		padding-bottom: 2%;
+		border-bottom: 1px dotted black;
+
+	} // top-title close
+	.Top-body{
+		padding-top: 1%;
+		h2{
+			font-size: 3rem;
+			padding-bottom: 1%;
+		}//h2 close
+
+		button{
+			
+			background-color: skyblue;
+			color:mediumvioletred;
+			height: 3vh;
+			width: 8%;
+			margin-left: 45%;
+			margin-top:1%;
+		}
+
+
+	}// top body close
+
+} // topcont close
+
 
 

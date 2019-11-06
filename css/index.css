@@ -106,7 +106,7 @@ section {
 }
 body {
   line-height: 1;
-  background-color: orange;
+  background-color: whitesmoke;
 }
 ol,
 ul {
@@ -178,10 +178,38 @@ th {
 }
 .topcont {
   display: flex;
-  flex-direction: column;
-  background-color: gray;
   padding: 2%;
+  flex-direction: column;
+  background-color: lightgray;
 }
-.SB {
+.topcont h1 {
+  text-decoration: underline blue solid;
+  text-align: center;
+  font-size: 5rem;
+}
+.topcont .SB {
+  text-align: center;
   font-family: 'Yeon Sung', cursive;
+  font-size: 2rem;
+  padding-top: 1.5%;
+  text-transform: capitalize;
+}
+.topcont .Top-title {
+  padding-bottom: 2%;
+  border-bottom: 1px dotted black;
+}
+.topcont .Top-body {
+  padding-top: 1%;
+}
+.topcont .Top-body h2 {
+  font-size: 3rem;
+  padding-bottom: 1%;
+}
+.topcont .Top-body button {
+  background-color: skyblue;
+  color: mediumvioletred;
+  height: 3vh;
+  width: 8%;
+  margin-left: 45%;
+  margin-top: 1%;
 }
