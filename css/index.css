@@ -158,7 +158,9 @@ a,
 p,
 table,
 td,
-th {
+th,
+li,
+ul {
   font-size: 1.8rem;
 }
 .topnav {
@@ -202,6 +204,8 @@ th {
   padding-top: 1%;
 }
 .topcont .Top-body h2 {
+  text-decoration: underline blue solid;
+  font-weight: bold;
   font-size: 3rem;
   padding-bottom: 1%;
 }
@@ -212,4 +216,26 @@ th {
   width: 8%;
   margin-left: 45%;
   margin-top: 1%;
+}
+.midcont {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  justify-content: space-between;
+}
+.midcont h2 {
+  text-decoration: underline ;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 3%;
+}
+.midcont .midbody {
+  width: 45%;
+}
+.midcont .midworkhist {
+  padding: 3% 0;
+  width: 100%;
+}
+.midcont .midworkhist h2 {
+  text-align: center;
 }

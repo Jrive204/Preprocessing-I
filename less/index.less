@@ -69,7 +69,7 @@ html, body {
 	font-size: 62.5%;
 }
 
-h1, h2, a, p, table, td, th {
+h1, h2, a, p, table, td, th, li, ul {
 	font-size: 1.8rem;
 }
 
@@ -119,6 +119,8 @@ h1, h2, a, p, table, td, th {
 	.Top-body{
 		padding-top: 1%;
 		h2{
+			text-decoration: underline blue solid;
+			font-weight: bold;
 			font-size: 3rem;
 			padding-bottom: 1%;
 		}//h2 close
@@ -138,5 +140,39 @@ h1, h2, a, p, table, td, th {
 
 } // topcont close
 
+// Middle content
+
+.midcont{
+	h2{
+		text-decoration: underline ;
+		font-size:2.5rem;
+		font-weight: bold;
+		padding-bottom: 3%;
+	}//h2 close
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:2%;
+	justify-content: space-between;
+
+	.midbody{
+		width: 45%;
+	}//midbody close
+
+	.midworkhist{
+		padding:3% 0;
+		width: 100%;
+
+		h2{
+		text-align: center;
+		}
+	}//midworkhist close
+
+
+
+
+
+
+
+} //midcont close
 
 
