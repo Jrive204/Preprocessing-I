@@ -54,8 +54,34 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+
+@yeo:'Yeon Sung', cursive;
+.pad(){
+	padding: 2%;
 }
 
+html, body {
+	height: 100%;
+	margin: 0 auto;
+	width: 80%;
+	font-size: 62.5%;
+}
 
+h1, h2, a, p, table, td, th {
+	font-size: 1.6rem;
+}
+
+.topnav{
+	.pad();
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+  a{
+	  padding:2%;
+  }
+}
+
+.SB{
+	font-family: @yeo;
+}

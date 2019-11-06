@@ -131,7 +131,38 @@ table {
 * {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'Yeon Sung';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Yeon Sung Regular'), local('YeonSung-Regular'), url(https://fonts.gstatic.com/s/yeonsung/v8/QldMNTpbohAGtsJvUn6BTlle.ttf) format('truetype');
+}
 html,
 body {
   height: 100%;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 62.5%;
+}
+h1,
+h2,
+a,
+p,
+table,
+td,
+th {
+  font-size: 1.6rem;
+}
+.topnav {
+  padding: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.topnav a {
+  padding: 2%;
+}
+.SB {
+  font-family: 'Yeon Sung', cursive;
 }
