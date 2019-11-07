@@ -78,6 +78,12 @@ h1, h2,h3, a, p, table, td, th, tr, li, ul {
 	width: 100%;
 	display: flex;
 	justify-content: flex-end;
+	@media(max-width:800px){
+		justify-content: center;
+	}//800px close
+	@media(max-width:500px){
+		justify-content: center;
+	}//500px close
   a{
 	  padding:2%;
 	  font-family: @rob;
@@ -87,6 +93,18 @@ h1, h2,h3, a, p, table, td, th, tr, li, ul {
 .suit-img img{
 	width: 25%;
 	padding-bottom:1%;
+
+	@media(max-width:800px){
+		width: 100%;
+
+	}//800px close
+
+
+
+	@media(max-width:500px) {
+		width: 100%;
+		
+	}//500px close
 }
 .topcont{
 	display: flex;
@@ -114,16 +132,41 @@ h1, h2,h3, a, p, table, td, th, tr, li, ul {
 	.Top-title{
 		padding-bottom: 2%;
 		border-bottom: 1px dotted black;
+		@media(max-width:800px){
+			padding:5%;
+
+		}//800 media close
+		@media(max-width:500px){
+			padding:5%;
+
+		}//500 media close
 
 	} // top-title close
 	.Top-body{
 		padding-top: 1%;
 		padding-bottom: 1%;
+		@media(max-width:800px){
+			h2{
+				text-align: center;
+			}
+				
+			padding:5%;
+
+		}//800 media close
+		@media(max-width:500px){
+			h2{
+				text-align: center;
+				padding-bottom: 4%;
+			}
+			padding:5%;
+
+		}//500 media close
 		h2{
 			text-decoration: underline blue solid;
 			font-weight: bold;
 			font-size: 3rem;
 			padding-bottom: 1%;
+		
 		}//h2 close
 
 		button{
@@ -135,6 +178,9 @@ h1, h2,h3, a, p, table, td, th, tr, li, ul {
 			margin-left: 45%;
 			margin-top:1%;
 			padding: 0 2%;
+			@media(max-width:500px){
+				margin-left:38%;
+			}
 			
 		}
 

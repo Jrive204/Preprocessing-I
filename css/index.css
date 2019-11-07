@@ -171,6 +171,16 @@ ul {
   display: flex;
   justify-content: flex-end;
 }
+@media (max-width: 800px) {
+  .topnav {
+    justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  .topnav {
+    justify-content: center;
+  }
+}
 .topnav a {
   padding: 2%;
   font-family: 'Roboto Mono', monospace;
@@ -179,6 +189,16 @@ ul {
 .suit-img img {
   width: 25%;
   padding-bottom: 1%;
+}
+@media (max-width: 800px) {
+  .suit-img img {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .suit-img img {
+    width: 100%;
+  }
 }
 .topcont {
   display: flex;
@@ -202,9 +222,36 @@ ul {
   padding-bottom: 2%;
   border-bottom: 1px dotted black;
 }
+@media (max-width: 800px) {
+  .topcont .Top-title {
+    padding: 5%;
+  }
+}
+@media (max-width: 500px) {
+  .topcont .Top-title {
+    padding: 5%;
+  }
+}
 .topcont .Top-body {
   padding-top: 1%;
   padding-bottom: 1%;
+}
+@media (max-width: 800px) {
+  .topcont .Top-body {
+    padding: 5%;
+  }
+  .topcont .Top-body h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .topcont .Top-body {
+    padding: 5%;
+  }
+  .topcont .Top-body h2 {
+    text-align: center;
+    padding-bottom: 4%;
+  }
 }
 .topcont .Top-body h2 {
   text-decoration: underline blue solid;
@@ -219,6 +266,11 @@ ul {
   margin-left: 45%;
   margin-top: 1%;
   padding: 0 2%;
+}
+@media (max-width: 500px) {
+  .topcont .Top-body button {
+    margin-left: 38%;
+  }
 }
 .midcont {
   display: flex;
