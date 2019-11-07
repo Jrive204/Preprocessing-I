@@ -59,7 +59,7 @@ table {
 @rob:'Roboto Mono', monospace;
 @yeo:'Yeon Sung', cursive;
 .pad(){
-	padding: 2%;
+	padding: 1%;
 }
 
 html, body {
@@ -69,7 +69,7 @@ html, body {
 	font-size: 62.5%;
 }
 
-h1, h2, a, p, table, td, th, li, ul {
+h1, h2, a, p, table, td, th, tr, li, ul {
 	font-size: 1.8rem;
 }
 
@@ -166,6 +166,21 @@ h1, h2, a, p, table, td, th, li, ul {
 		text-align: center;
 		}
 	}//midworkhist close
+
+	table{
+		.table-odd{
+			background-color: lightgray;
+		}
+		th{
+			text-decoration: underline;
+			background-color: skyblue;
+		}
+		th, td {
+			padding: 1.5% 0;
+			text-align: center;
+			border-bottom: 1px solid #ddd;
+		  }
+	}
 
 
 

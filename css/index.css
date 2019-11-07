@@ -159,12 +159,13 @@ p,
 table,
 td,
 th,
+tr,
 li,
 ul {
   font-size: 1.8rem;
 }
 .topnav {
-  padding: 2%;
+  padding: 1%;
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -180,7 +181,7 @@ ul {
 }
 .topcont {
   display: flex;
-  padding: 2%;
+  padding: 1%;
   flex-direction: column;
   background-color: lightgray;
 }
@@ -238,4 +239,17 @@ ul {
 }
 .midcont .midworkhist h2 {
   text-align: center;
+}
+.midcont table .table-odd {
+  background-color: lightgray;
+}
+.midcont table th {
+  text-decoration: underline;
+  background-color: skyblue;
+}
+.midcont table th,
+.midcont table td {
+  padding: 1.5% 0;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
 }
