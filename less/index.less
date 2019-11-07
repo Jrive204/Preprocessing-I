@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: whitesmoke;
 }
 ol, ul {
 	list-style: none;
@@ -53,7 +54,208 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Yeon+Sung&display=swap');
+
+@rob:'Roboto Mono', monospace;
+@yeo:'Yeon Sung', cursive;
+.pad(){
+	padding: 1%;
 }
+
+html, body {
+	height: 100%;
+	margin: 0 auto;
+	width: 80%;
+	font-size: 62.5%;
+}
+
+h1, h2,h3, a, p, table, td, th, tr, li, ul {
+	font-size: 1.8rem;
+}
+
+.topnav{
+	.pad();
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	@media(max-width:800px){
+		justify-content: center;
+	}//800px close
+	@media(max-width:500px){
+		justify-content: center;
+	}//500px close
+  a{
+	  padding:2%;
+	  font-family: @rob;
+	  font-size: 1.4rem;
+  }
+}
+.suit-img img{
+	width: 25%;
+	padding-bottom:1%;
+
+	@media(max-width:800px){
+		width: 100%;
+
+	}//800px close
+
+
+
+	@media(max-width:500px) {
+		width: 100%;
+		
+	}//500px close
+}
+.topcont{
+	display: flex;
+	.pad();
+	flex-direction: column;
+	background-color: lightgray;
+	
+	h1{
+		text-decoration: underline blue solid;
+		text-align: center;
+		font-size: 5rem;
+		
+	}// h1 close
+	
+	
+	.SB{
+	text-align: center;
+	font-family: @yeo;
+	font-size: 2rem;
+	padding-top:1.5%;
+	text-transform: capitalize;
+	
+	
+	} // sb close
+	.Top-title{
+		padding-bottom: 2%;
+		border-bottom: 1px dotted black;
+		@media(max-width:800px){
+			padding:5%;
+
+		}//800 media close
+		@media(max-width:500px){
+			padding:5%;
+
+		}//500 media close
+
+	} // top-title close
+	.Top-body{
+		padding-top: 1%;
+		padding-bottom: 1%;
+		@media(max-width:800px){
+			h2{
+				text-align: center;
+			}
+				
+			padding:5%;
+
+		}//800 media close
+		@media(max-width:500px){
+			h2{
+				text-align: center;
+				padding-bottom: 4%;
+			}
+			padding:5%;
+
+		}//500 media close
+		h2{
+			text-decoration: underline blue solid;
+			font-weight: bold;
+			font-size: 3rem;
+			padding-bottom: 1%;
+		
+		}//h2 close
+
+		button{
+
+						
+			background-color: skyblue;
+			color:mediumvioletred;
+			height: 3vh;
+			margin-left: 45%;
+			margin-top:1%;
+			padding: 0 2%;
+			@media(max-width:500px){
+				margin-left:38%;
+			}
+			
+		}
+
+
+	}// top body close
+
+} // topcont close
+
+// Middle content
+
+.midcont{
+	h2{
+		text-decoration: underline ;
+		font-size:2.5rem;
+		font-weight: bold;
+		padding-bottom: 3%;
+	}//h2 close
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:2%;
+	justify-content: space-between;
+
+	.midbody{
+		width: 45%;
+	}//midbody close
+
+	.midworkhist{
+		padding:3% 0;
+		width: 100%;
+
+		h2{
+		text-align: center;
+		}
+	}//midworkhist close
+//Table ----
+	table{
+		.table-odd{
+			background-color: lightgray;
+		}//table-odd close
+		th{
+			text-decoration: underline;
+			background-color: skyblue;
+		}//th close
+		th, td {
+			padding: 1.5% 0;
+			text-align: center;
+			border-bottom: 1px solid #ddd;
+		  }//th,td close
+	}//table close
+
+
+
+
+
+
+
+} //midcont close
+// Contact info
+
+footer{
+	padding-bottom: 2%;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	text-align: center;
+	h3{
+		font-weight: bold;
+		font-family: @rob;
+		color:hotpink;
+		text-align: center;
+		font-size: 2rem;
+	}//h3 close
+	p{
+		text-decoration: underline double blue;
+	}
+
+}//footer close
 
