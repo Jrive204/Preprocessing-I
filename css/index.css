@@ -154,6 +154,7 @@ body {
 }
 h1,
 h2,
+h3,
 a,
 p,
 table,
@@ -203,6 +204,7 @@ ul {
 }
 .topcont .Top-body {
   padding-top: 1%;
+  padding-bottom: 1%;
 }
 .topcont .Top-body h2 {
   text-decoration: underline blue solid;
@@ -214,9 +216,9 @@ ul {
   background-color: skyblue;
   color: mediumvioletred;
   height: 3vh;
-  width: 8%;
   margin-left: 45%;
   margin-top: 1%;
+  padding: 0 2%;
 }
 .midcont {
   display: flex;
@@ -252,4 +254,21 @@ ul {
   padding: 1.5% 0;
   text-align: center;
   border-bottom: 1px solid #ddd;
+}
+footer {
+  padding-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+footer h3 {
+  font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
+  color: hotpink;
+  text-align: center;
+  font-size: 2rem;
+}
+footer p {
+  text-decoration: underline double blue;
 }
